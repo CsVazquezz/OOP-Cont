@@ -1,4 +1,4 @@
-# OOP-Cont
+# Organzizador Carpetas Despacho Contabilidad - OOP
 
 
 El proyecto por desarrollar en C++ con enfoque a la programación orientada a objetos (OOP) tiene como su objetivo el poder proporcionar una solución eficiente para poder organizar carpetas. En este sistema, se crearán varios programas, cada uno de estos contendrá una clase especializada para poder clasificar las carpetas según sus diferentes tipos de criterios como, por ejemplo: año de creación, nombre y tipo. OOP nos permitirá diseñar clases que sean reutilizables, lo que facilitará la gestión y organización de carpetas en diversas situaciones.
