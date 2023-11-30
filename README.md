@@ -1,10 +1,19 @@
-# Organizador Carpetas Despacho Contabilidad - OOP
+# - Programa para gestion de despacho de contabilidad -
 
 
-El proyecto por desarrollar en C++ con enfoque a la programación orientada a objetos (OOP) tiene como su objetivo el poder proporcionar una solución eficiente para poder organizar carpetas. En este sistema, se crearán varios programas, cada uno de estos contendrá una clase especializada para poder clasificar las carpetas según sus diferentes tipos de criterios como, por ejemplo: año de creación, nombre y tipo. OOP nos permitirá diseñar clases que sean reutilizables, lo que facilitará la gestión y organización de carpetas en diversas situaciones.
+Este proyecto consiste en un sistema simple para la gestión de un despacho que maneja información sobre los clientes, empleados y carpetas. La estructura del código se organiza en 3 clases principales: “Person”,” Client” y “Employee”. La clase de “Person” es una clase base que contiene información común como seria el nombre, edad, género y numero de contacto. Las clases de “Client” y “Employee” herdean de la clase “Person” y representan a los clientes y empleados del despacho, además de esto hay una clase llamada “Folder” que representa carpetas con sus respectivos nombre, año y tipo sobre esta información deriva una clase llamada “FolderOrganizer” que organiza y muestra estas carpetas.
 
-Cada una de estas clases se encargará de algo más en específico, como la clasificación de las carpetas según su año lo que permitirá a los usuarios de este programa organizar su contenido de manera que sea más ordenada y accesible. Además, la flexibilidad del enfoque OOP nos permitirá extender fácilmente el sistema en el futuro para adaptarse a nuevas necesidades de clasificación. En resumen, este proyecto tiene como finalidad simplificar la gestión de grandes cantidades de carpetas, mejorando así la eficiencia y facilitando el acceso a la información que contienen.
+Funcionalidad del programa:
 
-El programa se dividira en varias clases las mas importantes siendo siendo:
-1. Despacho - Esta clase mostrara todos los detalles sobre el despacho de contaduria que este ocupando el programa como por ejemplo "nombre", "direccion", "numero de carpetas",  etc. de esta clase derivaran 3 subclases que seran los empleados, clientes y las carpetas del mismo.
-2. Carpeta - Este se encargara de proporcionar toda la informacion sobre las carpetas, desde su nombre, numero de documentos que hay en esta carpeta, la fecha, etc.
+Clientes y Empleados: Capacidad de visualizar los detalles sobre los clientes y empleados almacenados en el sistema, también es posible modificar la información de un cliente o empelado especifico.
+
+Carpetas: Las carpetas se pueden organizar de 3 maneras que son por año, nombre y tipo, la clase de “FolderOrganizer” permite agregar carpetas, organizarlas y mostrar el contenido dentro de estas.
+
+Uso del programa:
+
+1.	Al iniciar el programa este presentara un menú principal con las opciones para poder gestionar clientes, empelados, carpetas y salir del mismo programa.
+2.	Para gestionar carpetas se pueden seleccionar la opción correspondiente en el menú principal y este programa las organizara respectivamente a conforme desee el usuario.
+3.	La modificación de información de los clientes o empleados se realiza seleccionando la opción correspondiente, ingresando el tipo de persona ya sea cliente o empleado y el nombre del individuo al que se le desee modificar su información.
+
+
+
